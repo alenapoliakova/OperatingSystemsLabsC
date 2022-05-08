@@ -62,7 +62,7 @@ int main() {
 
     int c = 0;
     int d = 0;
-    int e = 0;;
+    int e = 0;
     int* order_of_execution = (int*)malloc(amount_of_processes * sizeof(int));
 
     while (iteration > 0) {
