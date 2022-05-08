@@ -1,3 +1,4 @@
+// Моделирование работы планировщика потоков в однопроцессорной ОС (приоритетное планирование)
 #include <stdio.h>
 #include <locale.h>
 #include <stdlib.h>
@@ -65,7 +66,7 @@ int main() {
     // Построение графика Ганта
     // e (execution) - исполнение, w (waiting) - ожидание
     for (int index_1 = 0; index_1 < amount; index_1++) {
-        printf("%d", index_1+1);
+        printf("%d", index_1 + 1);
         for (int index_2 = 0; index_2 < sum + max_time; index_2++) {
             min = INT_MAX;
             min_time = INT_MAX;
